@@ -1,38 +1,121 @@
-.App {
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400 500 600;
+  font-style: normal;
+}
+
+.body {
+  max-width: 1200px;
+  min-width: 800px;
+  font-family: 'Pretendard-Regular';
+  margin: 20px auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainTitle {
+  display: flex;
+  border: 2px solid #F5F7F8;
+  border-radius: 5px;
+  padding: 15px 20px;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titleTodo {
+  font-weight: 600;
+} 
+
+.inputStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #F5F7F8;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputStyle input {
+  margin-left: 5px;
+  margin-right: 10px;
+  padding: 0 10px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F5F7F8;
+}
+
+.inputStyle button {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #495E57;
+}
+
+.workingDone {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+  text-align: left;
+}
+
+.contents {
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  border: 1px solid #495E57;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+.inputTitle {
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.deleteBtn {
   color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #45474B;
 }
 
-.App-link {
-  color: #61dafb;
+.doneBtn {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F4CE14;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cancelBtn {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F5F7F8;
+}
+
+.content button:hover {
+  opacity: 80%;
 }
