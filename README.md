@@ -14,7 +14,10 @@ TodoList 만들기
 
 ![image](https://github.com/gkstnadl/React-week-1/assets/131341172/3b744740-27cd-4f73-ac7a-9fd006367b8c)
 - main화면
+  
 ![image](https://github.com/gkstnadl/React-week-1/assets/131341172/c15d288b-a400-409f-8808-1c578b7841bf)
 - Todo추가한 화면
+  
 ![image](https://github.com/gkstnadl/React-week-1/assets/131341172/0c37cdb2-f161-4c94-9c66-17948390944f)
 - Todo의 완료버튼을 누른 화면
+  
