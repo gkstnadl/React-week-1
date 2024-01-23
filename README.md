@@ -11,7 +11,10 @@ TodoList 만들기
   2) TodoItem - 할 일을 html로 보여주는 것과 '삭제하기' '완료' '취소' 버튼에 onClick 넣어둠
   3) TodoList - isDone 상태에 따라 할 일을 어디에 나열할지. 할일의 전체 리스트에 관여하는 부분.
 
-![image](https://github.com/gkstnadl/React-week-1/assets/131341172/3b744740-27cd-4f73-ac7a-9fd006367b8c)
-![image](https://github.com/gkstnadl/React-week-1/assets/131341172/c15d288b-a400-409f-8808-1c578b7841bf)
-![image](https://github.com/gkstnadl/React-week-1/assets/131341172/0c37cdb2-f161-4c94-9c66-17948390944f)
 
+![image](https://github.com/gkstnadl/React-week-1/assets/131341172/3b744740-27cd-4f73-ac7a-9fd006367b8c)
+- main화면
+![image](https://github.com/gkstnadl/React-week-1/assets/131341172/c15d288b-a400-409f-8808-1c578b7841bf)
+- Todo추가한 화면
+![image](https://github.com/gkstnadl/React-week-1/assets/131341172/0c37cdb2-f161-4c94-9c66-17948390944f)
+- Todo의 완료버튼을 누른 화면
