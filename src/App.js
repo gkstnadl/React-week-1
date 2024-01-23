@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import TodoInput from './TodoInput';
-import TodoList from './TodoList';
+import TodoInput from './components/todo/TodoInput.js';
+import TodoList from './components/todo/TodoList.js';
 
 function App() {
 
@@ -31,13 +31,23 @@ function App() {
 
   return (
     <div className='body'>
-      <div className='mainTitle'>
-        <span className='titleTodo'>My Todo List</span><span>React_4기</span>
+      <div className='main-title'>
+        <span className='title-todo'>My Todo List</span><span>React_4기</span>
       </div>
       <TodoInput onAddTodo={handleAddTodo} />
-      <div className='workingDone'>
-        <TodoList todos={todos.filter(todo => !todo.isDone)} onDeleteTodo={handleDeleteTodo} onToggleTodoStatus={toggleTodoStatus} />
-        <TodoList todos={todos.filter(todo => todo.isDone)} onDeleteTodo={handleDeleteTodo} onToggleTodoStatus={toggleTodoStatus} />
+      <div className='working-done'>
+      <TodoList 
+        todos={todos.filter(todo => !todo.isDone)} 
+        onDeleteTodo={handleDeleteTodo} 
+        onToggleTodoStatus={toggleTodoStatus} 
+        title="Working..🔥" 
+      />
+      <TodoList 
+        todos={todos.filter(todo => todo.isDone)} 
+        onDeleteTodo={handleDeleteTodo} 
+        onToggleTodoStatus={toggleTodoStatus} 
+        title="Done..✔️" 
+      />
       </div>
     </div>
   );

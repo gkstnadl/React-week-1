@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.mainTitle {
+.main-title {
   display: flex;
   border: 2px solid #F5F7F8;
   border-radius: 5px;
@@ -21,11 +21,11 @@
   justify-content: space-between;
 }
 
-.titleTodo {
+.title-todo {
   font-weight: 600;
 } 
 
-.inputStyle {
+.input-style {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +35,7 @@
   margin-top: 10px;
 }
 
-.inputStyle input {
+.input-style input {
   margin-left: 5px;
   margin-right: 10px;
   padding: 0 10px;
@@ -45,7 +45,7 @@
   background-color: #F5F7F8;
 }
 
-.inputStyle button {
+.input-style button {
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -55,7 +55,7 @@
   background-color: #495E57;
 }
 
-.workingDone {
+.working-done {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -73,7 +73,7 @@
   padding: 15px 20px;
 }
 
-.inputTitle {
+.input-title {
   margin: 0;
 }
 
@@ -86,7 +86,7 @@ button:hover {
   gap: 10px;
 }
 
-.deleteBtn {
+.delete-btn {
   color: white;
   font-size: 14px;
   font-weight: 500;
@@ -96,7 +96,7 @@ button:hover {
   background-color: #45474B;
 }
 
-.doneBtn {
+.done-btn {
   color: black;
   font-size: 14px;
   font-weight: 500;
@@ -106,7 +106,7 @@ button:hover {
   background-color: #F4CE14;
 }
 
-.cancelBtn {
+.cancel-btn {
   color: black;
   font-size: 14px;
   font-weight: 500;
