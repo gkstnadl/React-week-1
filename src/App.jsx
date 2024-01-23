@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import TodoInput from './components/todo/TodoInput.js';
-import TodoList from './components/todo/TodoList.js';
+import TodoInput from './components/todo/TodoInput.jsx';
+import TodoList from './components/todo/TodoList.jsx';
 
 function App() {
 
