@@ -60,6 +60,13 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+  gap: 20px;
+}
+
+.working-done h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 20px 0;
 }
 
 .contents {
@@ -70,11 +77,16 @@
 .content {
   border: 1px solid #495E57;
   border-radius: 5px;
-  padding: 15px 20px;
+  padding: 20px;
 }
 
 .input-title {
-  margin: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.input-main-text {
+  margin-bottom: 15px;
 }
 
 button:hover {
